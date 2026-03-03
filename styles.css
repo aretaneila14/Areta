@@ -42,15 +42,15 @@ body{
     width: 40%;
     margin-left: 50px;
     font-size: 25px;
-& h1{
-    color:rgb(51, 6, 6);
-}
-& h3{
-    color:rgb(255, 97, 34);
-}
-& p{
-    color:rgb(255, 255, 255);
-}
+    & h1{
+        color:rgb(51, 6, 6);
+    }
+    & h3{
+        color:rgb(255, 97, 34);
+    }
+    & p{
+        color:rgb(255, 255, 255);
+    }
 }
 .deskripsiHome a{
     text-decoration: none;
@@ -60,4 +60,28 @@ body{
     padding: 10px 30px;
     border-radius: 30px;
     box-shadow: 3px 3px 5px 2px rgb(48, 1, 1);
+}
+
+.about{
+    height: 800px;
+    background-color: antiquewhite;
+     & h3{
+        color: brown;
+    }
+    & p{
+        color:rgb(255, 255, 255);
+    }
+}
+
+.containerAbout{
+    background-color: burlywood;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    height: 100%;
+    padding: 50px 20px;
+}
+
+.containerAbout img{
+    height: 200px;
 }
