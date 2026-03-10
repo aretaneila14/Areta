@@ -64,24 +64,60 @@ body{
 
 .about{
     height: 800px;
-    background-color: antiquewhite;
+    background-color:rgb(230, 210, 184);
      & h3{
         color: brown;
     }
     & p{
         color:rgb(255, 255, 255);
+        text-align: justify;
     }
 }
 
 .containerAbout{
     background-color: burlywood;
+    border-radius: 10px 10px 10px 10px;
+    height: 90%;
     width: 50%;
-    margin-left: 25%;
+    margin-left: 23%;
     text-align: center;
-    height: 100%;
-    padding: 50px 20px;
+    padding: 25px;
+    padding-top: 50px;
 }
 
 .containerAbout img{
     height: 200px;
+}
+
+section.profile{
+    background-color: rgb(230, 210, 184);
+    height: 800px;
+    text-align: center;
+}
+
+.cardProfile{
+    background-color: rgb(180, 114, 83);
+    padding: 15px;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.imgProfile img{
+    width:100%;
+}
+
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
 }
