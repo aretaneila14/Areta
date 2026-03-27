@@ -89,15 +89,17 @@ section.profile{
     background-color: rgb(230, 210, 184);
     height: 800px;
     text-align: center;
+
 }
 
 .cardProfile{
     background-color: rgb(180, 114, 83);
     padding: 15px;
     width: 300px;
-    margin: 50px auto;
     text-align: center;
     color:blanchedalmond;
+    margin: auto;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .cardProfile img{
